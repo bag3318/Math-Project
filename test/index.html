@@ -1,0 +1,88 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>jQuery UI Accordion - Default functionality</title>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("#hidden1").hide();
+        $("#hidden2").hide();
+        $("#accordion").accordion();
+        $("#tabs").tabs();
+        $("#show1").on("click", function(){
+            if($(this).text() == "Show Answer")
+            {
+                $(this).text("Hide Answer");
+            } else {
+                $(this).text("Show Answer");
+            }
+            $("#hidden1").toggle(); 
+
+            return false;
+        });
+        $("#show2").on("click", function(){
+            if($(this).text() == "Show Answer")
+            {
+                $(this).text("Hide Answer");
+            } else {
+                $(this).text("Show Answer");
+            }
+            $("#hidden2").toggle(); 
+
+            return false;
+        });
+      });
+    </script>
+  </head>
+  <body>
+   
+  <div id="accordion">
+    <h3>Section 9.1</h3>
+    <div>
+      <div id="tabs">
+    <ul>
+      <li><a href="#tabs-1">A</a></li>
+      <li><a href="#tabs-2">B</a></li>
+      <li><a href="#tabs-3">B</a></li>
+      <li><a href="#tabs-4">C</a></li>
+    </ul>
+    <div id="tabs-1">
+        <p>
+    		______ is the opposite of tangent.
+        </p>
+        <button id="show1">Show Answer</button>    	
+    	<div id="hidden1">
+    		Answer: <b>Cotangent</b> is the opposite of tangent.
+    	</div>
+    </div>
+    <div id="tabs-2">
+      <p>Find the Sign of &pi;/6</p>
+      <button id="show2">Show Answer</button>
+      <div id="hidden2">
+        Step 1: draw a coordinate plane&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 2: Draw the units circle and locate where &pi;/6 would be&nbsp;&nbsp;&nbsp;&nbsp; Step 3: Draw your triangle and label&nbsp;&nbsp;&nbsp;&nbsp;<b>Answer: √3/3</b>
+        <br/>
+        <img src="../images/9-1B1.png" height="256"/><img src="../images/9-1B2.png" height="256"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/9-1B3.png" height="256"/>
+      </div>
+    </div>
+    <div id="tabs-3">
+      <p>COMING SOON!</p>
+    </div>
+  </div>
+   
+    </div>
+    <h3>Section 9.2</h3>
+    <div>
+
+    </div>
+    <h3>Section 9.3</h3>
+    <div>
+      COMING SOON!
+    </div>
+   
+   
+  </body>
+  </html>

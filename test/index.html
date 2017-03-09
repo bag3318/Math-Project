@@ -1,140 +1,164 @@
-  <!DOCTYPE html>
-  <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>jQuery UI Accordion - Default functionality</title>
-  <link rel="stylesheet" href="../stylesheets/jquery-ui.css">
-  <script src="../scripts/jquery.js"></script>
-  <script src="../scripts/jquery-ui.js"></script>
-    <script>
-      $(document).ready(function() {
-        $("button").button();
-        $("#hidden1").hide();
-        $("#hidden2").hide();
-        $("#hidden3").hide();
-        $("#hidden4").hide();
-        $("#accordion").accordion({
-          heightStyle: "content",
-          collapsible: true
-        });
-        $("#tabs").tabs();
-        $("#show1").on("click", function(){
-            if($(this).text() == "Show Answer")
-            {
-                $(this).text("Hide Answer");
-            } else {
-                $(this).text("Show Answer");
-            }
-            $("#hidden1").toggle(); 
-
-            return false;
-        });
-        $("#show2").on("click", function(){
-            if($(this).text() == "Show Answer")
-            {
-                $(this).text("Hide Answer");
-            } else {
-                $(this).text("Show Answer");
-            }
-            $("#hidden2").toggle(); 
-
-            return false;
-        });
-        $("#show3").on("click", function(){
-            if($(this).text() == "Show Answer")
-            {
-                $(this).text("Hide Answer");
-            } else {
-                $(this).text("Show Answer");
-            }
-            $("#hidden3").toggle(); 
-
-            return false;
-        });
-        $("#show4").on("click", function(){
-            if($(this).text() == "Show Answer")
-            {
-                $(this).text("Hide Answer");
-            } else {
-                $(this).text("Show Answer");
-            }
-            $("#hidden4").toggle(); 
-
-            return false;
-        });
-      });
-    </script>
+    <title>Math Project</title>
+    <link rel="stylesheet" href="../stylesheets/jquery-ui.css"/>
+    <script src="../scripts/jquery.js"></script>
+    <script src="../scripts/jquery-ui.js"></script>
+    <script src="../scripts/main.js"></script>
+    <link rel="stylesheet" href="../stylesheets/main.css" />
   </head>
   <body>
-   
-  <div id="accordion">
-    <h3>Section 9.1</h3>
-    <div>
-      <div id="tabs">
-    <ul>
-      <li><a href="#tabs-1">A</a></li>
-      <li><a href="#tabs-2">B</a></li>
-      <li><a href="#tabs-3">B</a></li>
-      <li><a href="#tabs-4">C</a></li>
-    </ul>
-    <div id="tabs-1">
-        <p>
-    		______ is the opposite of tangent.
-        </p>
-        <button id="show1">Show Answer</button>    	
-    	<div id="hidden1">
-    		Answer: <b>Cotangent</b> is the opposite of tangent.
-    	</div>
-    </div>
-    <div id="tabs-2">
-      <p>Find the Sign of &pi;/6</p>
-      <button id="show2">Show Answer</button>
-      <div id="hidden2">
-        Step 1: draw a coordinate plane&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 2: Draw the units circle and locate where &pi;/6 would be&nbsp;&nbsp;&nbsp;&nbsp; Step 3: Draw your triangle and label&nbsp;&nbsp;&nbsp;&nbsp;<b>Answer: √3/3</b>
-        <br/>
-        <img src="../images/9-1B1.png" height="256"/><img src="../images/9-1B2.png" height="256"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/9-1B3.png" height="256"/>
+    <h1>Math Project</h1>
+    <marquee>
+      <code>
+        &nbsp;__&nbsp;&nbsp;__&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_&nbsp;&nbsp;&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;____&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_&nbsp;&nbsp;&nbsp;<br/>
+        |&nbsp;&nbsp;\/&nbsp;&nbsp;|&nbsp;__&nbsp;_|&nbsp;|_|&nbsp;|__&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;_&nbsp;\&nbsp;_&nbsp;__&nbsp;___&nbsp;(_)&nbsp;___&nbsp;&nbsp;___|&nbsp;|_&nbsp;<br/>
+        |&nbsp;|\/|&nbsp;|/&nbsp;_`&nbsp;|&nbsp;__|&nbsp;'_&nbsp;\&nbsp;&nbsp;|&nbsp;|_)&nbsp;|&nbsp;'__/&nbsp;_&nbsp;\|&nbsp;|/&nbsp;_&nbsp;\/&nbsp;__|&nbsp;__|<br/>
+        |&nbsp;|&nbsp;&nbsp;|&nbsp;|&nbsp;(_|&nbsp;|&nbsp;|_|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;&nbsp;__/|&nbsp;|&nbsp;|&nbsp;(_)&nbsp;|&nbsp;|&nbsp;&nbsp;__/&nbsp;(__|&nbsp;|_&nbsp;<br/>
+        |_|&nbsp;&nbsp;|_|\__,_|\__|_|&nbsp;|_|&nbsp;|_|&nbsp;&nbsp;&nbsp;|_|&nbsp;&nbsp;\___//&nbsp;|\___|\___|\__|<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </code>
+    </marquee>
+    <br/>
+    <div id="accordion">
+      <h3>Section 9.1</h3>
+      <div>
+        <div id="tabs2">
+          <ul>
+            <li><a href="#tabs-1">A</a></li>
+            <li><a href="#tabs-2">B</a></li>
+            <li><a href="#tabs-3">B</a></li>
+            <li><a href="#tabs-4">C</a></li>
+          </ul>
+          <div id="tabs-1">
+            <p>
+              ______ is the opposite of tangent.
+            </p>
+            <button id="show1">Show Answer</button>     
+            <div id="hidden1">
+              Answer: <b>Cotangent</b> is the opposite of tangent.
+            </div>
+          </div>
+          <div id="tabs-2">
+            <h3>Problem</h3>
+            <p>Find the Sign of &pi;/6</p>
+            <button id="show2">Show Answer</button>
+            <div id="hidden2">
+            <h3>Answer</h3>
+              Step 1: draw a coordinate plane&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 2: Draw the units circle and locate where &pi;/6 would be&nbsp;&nbsp;&nbsp;&nbsp; Step 3: Draw your triangle and label&nbsp;&nbsp;&nbsp;&nbsp;<b>Answer: √3/3</b>
+              <br/>
+              <img src="../images/9-1B1.png" height="256"/><img src="../images/9-1B2.png" height="256"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/9-1B3.png" height="256"/>
+            </div>
+          </div>
+          <div id="tabs-3">
+            <h3>Problem</h3>
+            <span>Solve the right triangle</span><br/>
+            <img src="../images/9-1b11.png" height="256" />
+            <br/>
+            <button id="show3">Show Answer</button>
+            <div id="hidden3">
+              <h3>Answer</h3>
+              Step 1: By looking at the triangle, it is obvious that it is a 30-60-90˚ triangle. So right away you know that the other side is 2.
+              <br/>
+              Step 2: identify the angles: 30˚, 60˚, and 90˚.
+            </div>
+          </div>
+          <div id="tabs-4">
+            <span>Use a calculator to find the <i>inverse cosecant</i> of 88˚.</span>
+            <br/>
+            <button id="show4">Show Answer</button>
+            <div id="hidden4">
+              <blockquote>Note: make sure your calculator is in Degrees mode</blockquote>
+              Step 1: press the inverse sine button on your calculator (sin<sup>-1</sup>)
+              <br/>
+              Step 2: put in 88 and then close parenthesis; <code>88)</code>
+              <br/>
+              Step 3: put in "to the -1 power" on your calculator; <code>^-1</code>
+              <br/>
+              Step 4: press enter!
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div id="tabs-3">
-      <span>Solve the right triangle</span><br/>
-      <img src="../images/9-1b11.png" height="256" />
-      <button id="show3">Show Answer</button>
-      <div id="hidden3">
-        Step 1: By looking at the triangle, it is obvious that it is a 30-60-90˚ triangle. So right away you know that the other side is 2.
-        <br/>
-        Step 2: identify the angles: 30˚, 60˚, and 90˚.
+      <h3>Section 9.2</h3>
+      <div>
+        <div id="tabs">
+          <ul>
+            <li><a href="#tabs-1">A</a></li>
+            <li><a href="#tabs-2">B</a></li>
+            <li><a href="#tabs-3">B</a></li>
+            <li><a href="#tabs-4">C</a></li>
+          </ul>
+          <div id="tabs-1">
+            <h3>Problem</h3>
+            <p>List all 6 trig functions</p>
+            <button id="show7">Show Answer</button>
+            <div id="hidden7">
+              <ol>
+                <li>Sine</li>
+                <li>Cosine</li>
+                <li>Tangent</li>
+                <li>Cosecant</li>
+                <li>Secant</li>
+                <li>Cotangent</li>
+              </ol>
+            </div>
+          </div>
+          <div id='tabs-2'>
+            <p>Find 1 positive and negative angle that are coterminal with π/3</p>
+            <button id="show6">Show Answer</button>
+            <br/>
+            <div id="hidden6">
+              Step 1: Find where π/3 is on the units circle&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 2: Add and subtract 360˚ in radians (so 2π); <b>6π/3+π/3</b>,&nbsp;<b>π/3-6π/3</b>&nbsp;&nbsp;&nbsp;&nbsp;Step 3: <strong>Answer: 7π/3, -5π/3</strong>
+              <br/>
+              <img src="../images/9-2B1.png" height="256"/>
+            </div>
+          </div>
+          <div id="tabs-3">
+            <p>Convert 33˚ to radians</p>
+            <button id="show5">Show Answer</button>
+            <div id="hidden5">
+              Step 1: first write out 33˚ as a fraction; <code>33/1</code>
+              <br/>
+              Step 2: then mutliply it by <code>π/180</code>; <code>33/1 * π/180</code>
+              <br/>
+              Step 3: Simplify; <code>= 11π/60</code>
+            </div>
+          </div>
+          <div id="tabs-4">
+            <div id="tabs">
+              <ul>
+                <li><a href="#tabs-1">A</a></li>
+                <li><a href="#tabs-2">B</a></li>
+                <li><a href="#tabs-3">B</a></li>
+                <li><a href="#tabs-4">C</a></li>
+              </ul>
+              <div id="tabs-1">
+                <p>Define the units circle</p>
+                <button id="show8">Show Answer</button>
+                <br/>
+                <div id="hidden8">A circle that shows radian measures.</div>
+              </div>
+              <div id="tabs-2">
+                <p></p>
+              </div>
+              <div id="tabs-3">
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div id="tabs-4">
-      <span>Use a calculator to find the <i>inverse cosecant</i> of 88˚.</span>
-      <br/>
-      <button id="show4">
-        Show Answer
-      </button>
-      <div id="hidden4">
-        <blockquote>Note: make sure your calculator is in Degrees mode</blockquote>
-        Step 1: press the inverse sine button on your calculator (sin<sup>-1</sup>)
-        <br/>
-        Step 2: put in 88 and then close parenthesis; <code>88)</code>
-        <br/>
-        Step 3: put in "to the -1 power" on your calculator; <code>^-1</code>
-        <br/>
-        Step 4: press enter!
-      </div>
-    </div>
-  </div>
-   
-    </div>
-    <h3>Section 9.2</h3>
-    <div>
-  
-    </div>
     <h3>Section 9.3</h3>
     <div>
-      COMING SOON!
+
     </div>
-   
-   
+    <h3>Unit Circle</h3>
+    <div>
+      <img src="../images/unitscircle.jpg"/>
+    </div>
   </body>
-  </html>
+</html>

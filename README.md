@@ -26,6 +26,7 @@ Dear Mr. H,<br/>
 If you are reading this, I just wanted you to know that I wanted to give you quality work and not some chicken scratch writing on lined paper. I feel that effort is more important than correctness (NOT IN ALL CASES!). Thus that is why I did this. I can do what I like most while combining it with my 2<sup>nd</sup> favorite part of math (1<sup>st</sup> is Geometry). I enjoyed making this and hope to do more of this in the future.
 <br/>
 \#∆MRH
+<br/>
 Kind Regards,
 Broccolini
 

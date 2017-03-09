@@ -28,6 +28,7 @@ How to Download
 
 3. Open the `test` folder
 4. Open the `index.html` file with a web browser
+   * Please see the [browser compatibility section](#browser-compatibility) for more details.
 5. Done!
 
 
@@ -48,6 +49,7 @@ Browser Compatibility
 |--------------|--------------|------------------|------------|-------------|
 |Not applicable|6.1.6 or later|34.0.1847 or later|1.3 or later|8.xx or later|
 [//]: # (end table)
+* **DO NOT OPEN WITH INTERNET EXPLORER!**
 
 ## Plugins Used
 

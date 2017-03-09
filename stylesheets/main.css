@@ -6,8 +6,8 @@
     font-family: Segoe Print Bold;
     src: url(../fonts/Segoe Print Bold.ttf);
 }
-body > code {
-	font-family: 'Open Sans', Helvetica, sans-serif;
+marquee {
+	line-height: 75%;
 }
 h1 {
 	font-family: Segoe Print;

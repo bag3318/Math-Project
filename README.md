@@ -17,6 +17,14 @@ Math Project
   
 <!--END doctoc-->
 
+## Introduction
+Dear Mr. H,<br/>
+If you are reading this, I just wanted you to know that I wanted to give you quality work and not some chicken scratch writing on lined paper. I feel that effort is more important than correctness (NOT IN ALL CASES!). Thus that is why I did this. I can do what I like most while combining it with my 2<sup>nd</sup> favorite part of math (1<sup>st</sup> is Geometry). I enjoyed making this and hope to do more of this in the future.
+<br/>
+\#∆MRH
+Kind Regards,
+Broccolini
+
 How to Download
 ---------------
 
@@ -34,11 +42,11 @@ How to Download
 
 ## Rubric Checklist
 
-- [x] 3 Sections (9.1, 9.2, 9.3)
++ [x] 3 Sections (9.1, 9.2, 9.3)
 - [x] 3 A problems
-- [x] 6 B problems
++ [x] 6 B problems
 - [ ] 3 C problems (coming soon! 2/3 complete)
-- [x] My own work
+* [x] My own work
 
 
 Browser Compatibility
@@ -51,16 +59,36 @@ Browser Compatibility
 [//]: # (end table)
 * **DO NOT OPEN WITH INTERNET EXPLORER!**
 
-## Plugins Used
+
+
+## Bugs
+
++ When not screen is not full screen,  content is scewed (it gets scewed right on its lines; haha see what I did there ;). This is not really a bug, but it is worth noting that this will happen. 
+- Internet explorer is not full compatible with this web page.
+
+## Credits
+
+### Software Used
+
+1. [Sublime Text 3][1]; purchase required: yes
+2. [MacDown][2]; purchase required: no
+3. [Firefox Developer Edition][3]; purchase required: no
+
+[1]: https://www.sublimetext.com/3 (Sublime Text 3)
+[2]: http://macdown.uranusjr.com/ (MacDown)
+[3]: https://www.mozilla.org/en-US/firefox/developer/ (Firefox Developer Edition)
+
+### Plugins Used
 
 + [jQuery][1]
 - [jQuery UI][2]
 * [PACE Loading Bar][3]
+* [ASCII Text Art Generator][4]
 
 [1]: http://www.jquery.com/  "jQuery"
 [2]: http://www.jqueryui.com/  "jQuery UI"
 [3]: http://github.hubspot.com/pace/docs/welcome/  (PACE Loading Bar)
-
+[4]: patorjk.com/software/taag/ (ASCII Text Art Generator)
 ________
 
 > **_Enjoy!_**

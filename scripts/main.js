@@ -1,6 +1,6 @@
   $(document).ready(function() {
     $("button").button();
-    $("#hidden1, #hidden2, #hidden3, #hidden4, #hidden5, #hidden6, #hidden7, #hidden8, #hidden9").hide();
+    $("#hidden1, #hidden2, #hidden3, #hidden4, #hidden5, #hidden6, #hidden7, #hidden8, #hidden9, #hidden10").hide();
     $("#accordion").accordion({
       heightStyle: "content",
       collapsible: true,
@@ -105,6 +105,17 @@
             $(this).text("Show Answer");
         }
         $("#hidden9").slideToggle(); 
+    
+        return false;
+    });
+    $("#show10").on("click", function(){
+        if($(this).text() == "Show Answer")
+        {
+            $(this).text("Hide Answer");
+        } else {
+            $(this).text("Show Answer");
+        }
+        $("#hidden10").slideToggle(); 
     
         return false;
     });

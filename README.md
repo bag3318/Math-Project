@@ -1,3 +1,21 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Math Project](#math-project)
+- [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [How to Download](#how-to-download)
+  - [How to Open](#how-to-open)
+  - [Rubric Checklist](#rubric-checklist)
+  - [Browser Compatibility](#browser-compatibility)
+  - [Bugs](#bugs)
+  - [Credits](#credits)
+    - [Software Used](#software-used)
+    - [Plugins Used](#plugins-used)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 [comment]: # (Start README.md markdown script)
 
 Math Project

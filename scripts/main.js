@@ -136,4 +136,16 @@
     
         return false;
     });
+    $("#start").on("click", function() { // when button 1 is clicked
+        $("#start").fadeOut(887); // make the start button fade out
+        $("code").slideUp(888).delay(888); // then take the text art (the one that says madagascar), which is code and slide it up to hide it, then delay 888 milliseconds
+        $("#accordion").delay(888).slideDown(1508); // now the accordion will slide down in 1508 milliseconds but first we need to delay it another 888 milliseconds
+        $("#end").delay(890).fadeIn(888);
+    }); // close the click function
+    $("#end").on("click", function() { // now when button 2 is clicked ...
+        $(this).fadeOut(887); // fade button 2 (this) out
+        $("#start").delay(890).fadeIn(887); // then make the start button delay 887 milliseconds and fade in in 888 milliseconds
+        $("#accordion").slideUp(888).delay(888); // now we must hide the accordion by sliding it up and then delay 888 milliseconds
+        $("code").delay(888).slideDown(1508); // now slide down the code but first delay 888 milliseconds then slide down in 1508 milliseconds
+    }); // close the click function
   });

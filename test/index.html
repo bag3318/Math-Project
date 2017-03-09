@@ -4,14 +4,20 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>jQuery UI Accordion - Default functionality</title>
-  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel="stylesheet" href="../stylesheets/jquery-ui.css">
+  <script src="../scripts/jquery.js"></script>
+  <script src="../scripts/jquery-ui.js"></script>
     <script>
       $(document).ready(function() {
+        $("button").button();
         $("#hidden1").hide();
         $("#hidden2").hide();
-        $("#accordion").accordion();
+        $("#hidden3").hide();
+        $("#hidden4").hide();
+        $("#accordion").accordion({
+          heightStyle: "content",
+          collapsible: true
+        });
         $("#tabs").tabs();
         $("#show1").on("click", function(){
             if($(this).text() == "Show Answer")
@@ -32,6 +38,28 @@
                 $(this).text("Show Answer");
             }
             $("#hidden2").toggle(); 
+
+            return false;
+        });
+        $("#show3").on("click", function(){
+            if($(this).text() == "Show Answer")
+            {
+                $(this).text("Hide Answer");
+            } else {
+                $(this).text("Show Answer");
+            }
+            $("#hidden3").toggle(); 
+
+            return false;
+        });
+        $("#show4").on("click", function(){
+            if($(this).text() == "Show Answer")
+            {
+                $(this).text("Hide Answer");
+            } else {
+                $(this).text("Show Answer");
+            }
+            $("#hidden4").toggle(); 
 
             return false;
         });
@@ -69,14 +97,38 @@
       </div>
     </div>
     <div id="tabs-3">
-      <p>COMING SOON!</p>
+      <span>Solve the right triangle</span><br/>
+      <img src="../images/9-1b11.png" height="256" />
+      <button id="show3">Show Answer</button>
+      <div id="hidden3">
+        Step 1: By looking at the triangle, it is obvious that it is a 30-60-90˚ triangle. So right away you know that the other side is 2.
+        <br/>
+        Step 2: identify the angles: 30˚, 60˚, and 90˚.
+      </div>
+    </div>
+    <div id="tabs-4">
+      <span>Use a calculator to find the <i>inverse cosecant</i> of 88˚.</span>
+      <br/>
+      <button id="show4">
+        Show Answer
+      </button>
+      <div id="hidden4">
+        <blockquote>Note: make sure your calculator is in Degrees mode</blockquote>
+        Step 1: press the inverse sine button on your calculator (sin<sup>-1</sup>)
+        <br/>
+        Step 2: put in 88 and then close parenthesis; <code>88)</code>
+        <br/>
+        Step 3: put in "to the -1 power" on your calculator; <code>^-1</code>
+        <br/>
+        Step 4: press enter!
+      </div>
     </div>
   </div>
    
     </div>
     <h3>Section 9.2</h3>
     <div>
-
+  
     </div>
     <h3>Section 9.3</h3>
     <div>

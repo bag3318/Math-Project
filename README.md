@@ -1,5 +1,3 @@
-
-
 [comment]: # (Start README.md markdown script)
 
 Math Project

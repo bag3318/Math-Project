@@ -1,6 +1,6 @@
   $(document).ready(function() {
     $("button").button();
-    $("#hidden1, #hidden2, #hidden3, #hidden4, #hidden5, #hidden6, #hidden7, #hidden8, #hidden9, #hidden10, #hidden11").hide();
+    // $("#hidden").hide(); // normally, this would be used; however, css is the more appropriate way to hide something
     $("#accordion").accordion({
       heightStyle: "content",
       collapsible: true,
@@ -22,7 +22,7 @@
         } else {
             $(this).text("Show Answer");
         }
-        $("#hidden1").slideToggle(); 
+        $(".hidden").slideToggle(); 
   
         return false;
     });
@@ -33,7 +33,7 @@
         } else {
             $(this).text("Show Answer");
         }
-        $("#hidden2").slideToggle(); 
+        $(".hidden").slideToggle(); 
   
         return false;
     });
@@ -44,7 +44,7 @@
         } else {
             $(this).text("Show Answer");
         }
-        $("#hidden3").slideToggle(); 
+        $(".hidden").slideToggle(); 
   
         return false;
     });
@@ -55,7 +55,7 @@
         } else {
             $(this).text("Show Answer");
         }
-        $("#hidden4").slideToggle(); 
+        $(".hidden").slideToggle(); 
   
         return false;
     });
@@ -66,7 +66,7 @@
         } else {
             $(this).text("Show Answer");
         }
-        $("#hidden5").slideToggle(); 
+        $(".hidden").slideToggle(); 
     
         return false;
     });

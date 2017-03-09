@@ -16,3 +16,6 @@ h1 {
 #accordion, #tabs, #tabs2 {
 	font-family: Segoe Print;
 }
+.hidden {
+	display: none;
+}

@@ -26,7 +26,7 @@ How to Download
 2. Once downloaded, extract the `.zip` file by double clicking it
    * Note: if on Windows, one will have to right click then click extract all
 
-## How to Install
+## How to Open
 
 3. Open the `test` folder
 4. Open the `index.html` file with a web browser

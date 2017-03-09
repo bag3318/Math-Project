@@ -77,7 +77,7 @@
         } else {
             $(this).text("Show Answer");
         }
-        $("#hidden6").slideToggle(); 
+        $(".hidden").slideToggle(); 
     
         return false;
     });
@@ -88,7 +88,7 @@
         } else {
             $(this).text("Show Answer");
         }
-        $("#hidden7").slideToggle(); 
+        $(".hidden").slideToggle(); 
     
         return false;
     });
@@ -99,7 +99,7 @@
         } else {
             $(this).text("Show Answer");
         }
-        $("#hidden8").slideToggle(); 
+        $(".hidden").slideToggle(); 
     
         return false;
     });
@@ -110,7 +110,7 @@
         } else {
             $(this).text("Show Answer");
         }
-        $("#hidden9").slideToggle(); 
+        $(".hidden").slideToggle(); 
     
         return false;
     });
@@ -121,7 +121,7 @@
         } else {
             $(this).text("Show Answer");
         }
-        $("#hidden10").slideToggle(); 
+        $(".hidden").slideToggle(); 
     
         return false;
     });
@@ -132,7 +132,7 @@
         } else {
             $(this).text("Show Answer");
         }
-        $("#hidden11").slideToggle(); 
+        $(".hidden").slideToggle(); 
     
         return false;
     });

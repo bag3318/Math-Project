@@ -7,7 +7,7 @@
       active: false
     });
     $("#tabs, #tabs2").tabs({
-        collabsible: true
+        collapsible: true
     });
     $("#show1").on("click", function(){
         if($(this).text() == "Show Answer")

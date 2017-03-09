@@ -1,13 +1,10 @@
   $(document).ready(function() {
     $("button").button();
-    $("#hidden1").hide();
-    $("#hidden2").hide();
-    $("#hidden3").hide();
-    $("#hidden4").hide();
-    $("#hidden5, #hidden6, #hidden7").hide();
+    $("#hidden1, #hidden2, #hidden3, #hidden4, #hidden5, #hidden6, #hidden7, #hidden8, #hidden9").hide();
     $("#accordion").accordion({
       heightStyle: "content",
-      collapsible: true
+      collapsible: true,
+      active: false
     });
     $("#tabs, #tabs2").tabs({
         collabsible: true
@@ -19,7 +16,7 @@
         } else {
             $(this).text("Show Answer");
         }
-        $("#hidden1").toggle(); 
+        $("#hidden1").slideToggle(); 
   
         return false;
     });
@@ -30,7 +27,7 @@
         } else {
             $(this).text("Show Answer");
         }
-        $("#hidden2").toggle(); 
+        $("#hidden2").slideToggle(); 
   
         return false;
     });
@@ -41,7 +38,7 @@
         } else {
             $(this).text("Show Answer");
         }
-        $("#hidden3").toggle(); 
+        $("#hidden3").slideToggle(); 
   
         return false;
     });
@@ -52,7 +49,7 @@
         } else {
             $(this).text("Show Answer");
         }
-        $("#hidden4").toggle(); 
+        $("#hidden4").slideToggle(); 
   
         return false;
     });
@@ -63,7 +60,7 @@
         } else {
             $(this).text("Show Answer");
         }
-        $("#hidden5").toggle(); 
+        $("#hidden5").slideToggle(); 
     
         return false;
     });
@@ -74,7 +71,7 @@
         } else {
             $(this).text("Show Answer");
         }
-        $("#hidden6").toggle(); 
+        $("#hidden6").slideToggle(); 
     
         return false;
     });
@@ -85,7 +82,29 @@
         } else {
             $(this).text("Show Answer");
         }
-        $("#hidden7").toggle(); 
+        $("#hidden7").slideToggle(); 
+    
+        return false;
+    });
+    $("#show8").on("click", function(){
+        if($(this).text() == "Show Answer")
+        {
+            $(this).text("Hide Answer");
+        } else {
+            $(this).text("Show Answer");
+        }
+        $("#hidden8").slideToggle(); 
+    
+        return false;
+    });
+    $("#show9").on("click", function(){
+        if($(this).text() == "Show Answer")
+        {
+            $(this).text("Hide Answer");
+        } else {
+            $(this).text("Show Answer");
+        }
+        $("#hidden9").slideToggle(); 
     
         return false;
     });

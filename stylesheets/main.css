@@ -1,6 +1,18 @@
-body {
+@font-face {
+    font-family: Segoe Print;
+    src: url(../fonts/Segoe Print.ttf);
+}
+@font-face {
+    font-family: Segoe Print Bold;
+    src: url(../fonts/Segoe Print Bold.ttf);
+}
+body > code {
 	font-family: 'Open Sans', Helvetica, sans-serif;
 }
 h1 {
+	font-family: Segoe Print;
 	text-align: center;
+}
+#accordion, #tabs, #tabs2 {
+	font-family: Segoe Print;
 }

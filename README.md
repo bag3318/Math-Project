@@ -36,7 +36,7 @@ How to Download
 - [x] 3 Sections (9.1, 9.2, 9.3)
 - [x] 3 A problems
 - [x] 6 B problems
-- [x] 3 C problems
+- [ ] 3 C problems (coming soon!)
 - [x] My own work
 
 

@@ -9,6 +9,12 @@
     $("#tabs, #tabs2").tabs({
         collapsible: true
     });
+    $("#tabs, #tabs2").find( ".ui-tabs-nav" ).sortable({
+      axis: "x",
+      stop: function() {
+        tabs.tabs( "refresh" );
+      }
+    });
     $("#show1").on("click", function(){
         if($(this).text() == "Show Answer")
         {

@@ -1,6 +1,11 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+[comment]: # (Start README.md markdown script)
+
+Math Project
+============
+
+# Table of Contents
+
+<!-- START doctoc -->
 
 - [Math Project](#math-project)
 - [Table of Contents](#table-of-contents)
@@ -14,26 +19,7 @@
     - [Software Used](#software-used)
     - [Plugins Used](#plugins-used)
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-[comment]: # (Start README.md markdown script)
-
-Math Project
-============
-
-# Table of Contents
-
-<!--START doctoc-->
-
-- [Math Project](#math-project)
-- [Table of Contents](#table-of-contents)
-  - [How to Download](#how-to-download)
-  - [How to Install](#how-to-install)
-  - [Rubric Checklist](#rubric-checklist)
-  - [Browser Compatibility](#browser-compatibility)
-  - [Plugins Used](#plugins-used)
-  
-<!--END doctoc-->
+<!-- END doctoc -->
 
 ## Introduction
 Dear Mr. H,<br/>
@@ -100,13 +86,16 @@ Browser Compatibility
 
 + [jQuery][1]
 - [jQuery UI][2]
-* [PACE Loading Bar][3]
-* [ASCII Text Art Generator][4]
++ [PACE Loading Bar][3]
+- [ASCII Text Art Generator][4]
+* [DOCTOC][5]
 
 [1]: http://www.jquery.com/  "jQuery"
 [2]: http://www.jqueryui.com/  "jQuery UI"
 [3]: http://github.hubspot.com/pace/docs/welcome/  (PACE Loading Bar)
 [4]: patorjk.com/software/taag/ (ASCII Text Art Generator)
+[5]: https://github.com/thlorenz/doctoc "DOCTOC"
+
 ________
 
 > **_Enjoy!_**

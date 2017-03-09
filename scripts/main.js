@@ -22,7 +22,7 @@
         } else {
             $(this).text("Show Answer");
         }
-        $(".hidden").slideToggle(); 
+        $(".hidden1").slideToggle(); 
   
         return false;
     });
@@ -33,7 +33,7 @@
         } else {
             $(this).text("Show Answer");
         }
-        $(".hidden").slideToggle(); 
+        $(".hidden2").slideToggle(); 
   
         return false;
     });
@@ -44,7 +44,7 @@
         } else {
             $(this).text("Show Answer");
         }
-        $(".hidden").slideToggle(); 
+        $(".hidden3").slideToggle(); 
   
         return false;
     });
@@ -55,7 +55,7 @@
         } else {
             $(this).text("Show Answer");
         }
-        $(".hidden").slideToggle(); 
+        $(".hidden4").slideToggle(); 
   
         return false;
     });
@@ -66,7 +66,7 @@
         } else {
             $(this).text("Show Answer");
         }
-        $(".hidden").slideToggle(); 
+        $(".hidden5").slideToggle(); 
     
         return false;
     });
@@ -77,7 +77,7 @@
         } else {
             $(this).text("Show Answer");
         }
-        $(".hidden").slideToggle(); 
+        $(".hidden6").slideToggle(); 
     
         return false;
     });
@@ -88,7 +88,7 @@
         } else {
             $(this).text("Show Answer");
         }
-        $(".hidden").slideToggle(); 
+        $(".hidden7").slideToggle(); 
     
         return false;
     });
@@ -99,7 +99,7 @@
         } else {
             $(this).text("Show Answer");
         }
-        $(".hidden").slideToggle(); 
+        $(".hidden8").slideToggle(); 
     
         return false;
     });
@@ -110,7 +110,7 @@
         } else {
             $(this).text("Show Answer");
         }
-        $(".hidden").slideToggle(); 
+        $(".hidden9").slideToggle(); 
     
         return false;
     });
@@ -121,7 +121,7 @@
         } else {
             $(this).text("Show Answer");
         }
-        $(".hidden").slideToggle(); 
+        $(".hidden10").slideToggle(); 
     
         return false;
     });
@@ -132,7 +132,18 @@
         } else {
             $(this).text("Show Answer");
         }
-        $(".hidden").slideToggle(); 
+        $(".hidden11").slideToggle(); 
+    
+        return false;
+    });
+    $("#show12").on("click", function(){
+        if($(this).text() == "Show Answer")
+        {
+            $(this).text("Hide Answer");
+        } else {
+            $(this).text("Show Answer");
+        }
+        $(".hidden12").slideToggle(); 
     
         return false;
     });
